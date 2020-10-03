@@ -1,13 +1,25 @@
 # project description
 
-first we connect to VM via ssh.
-then we download a tar-ball with "supplier-data" directory.
-in the supplier data there are two more directories:
-descriptions - there are names of fruits , weight which the supplier have sold, and descriptions of fruits. 
-images - images of the fruits.
+First we connect to a VM via ssh.
+Then we download a tar-ball with "supplier-data" directory.
+In the supplier data there are two more directories:
+"descriptions" - there are names of fruits , weight (which the supplier have sold), and descriptions of fruits. 
+"images" - images of the fruits.
+
+<home_dir>---<user_dir>
+                  |
+                  |---<supplier_data>
+                         |           |
+                <descriptions>      <images> - images with .tiff format.
+                example:
+                
+                "name: mango
+                weight: 100 libs
+                description: mango is......"
+
 
 ## scriprt 1
-changeImage.py - changes the image sizes to 600*400 and images format - from tiff to jpeg.
+changeImage.py - changes the images sizes to 600*400 and images format - from tiff to jpeg.
 
 ## script 2
 supplier_image_upload.py - uploading images to a django server which runs on the same VM.
