@@ -3,8 +3,13 @@
 First we connect to a VM via ssh.
 Then we download a tar-ball with "supplier-data" directory.
 In the supplier data there are two more directories:
-"descriptions" - there are names of fruits , weight (which the supplier have sold), and descriptions of fruits. 
-"images" - images of the fruits.
+#### "descriptions" - 
+there are names of fruits , weight (which the supplier have sold), and descriptions of fruits. 
+#### "images" - 
+images of the fruits.
+
+#### The stracture is:
+
 
 ```
 <home_dir>---<user_dir>
