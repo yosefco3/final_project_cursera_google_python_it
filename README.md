@@ -12,11 +12,12 @@ In the supplier data there are two more directories:
                   |---<supplier_data>
                          |           |
                 <descriptions>      <images> - images with .tiff format.
-                example:
                 
-                "name: mango
-                weight: 100 libs
-                description: mango is......"
+                for example:
+                
+                "name": mango
+                "weight": 100 libs
+                "description": mango is......
 ```
 
 ## scriprt 1
