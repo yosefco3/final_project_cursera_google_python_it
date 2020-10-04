@@ -1,4 +1,4 @@
-# project description
+# Project Description
 
 First we connect to a VM via ssh.
 Then we download a tar-ball with "supplier-data" directory.
